@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.domain-container {
+  list-style-type: none;
+}
+
+.history-item-container {
+  display: flex;
+  flex-direction: row;
+}
+.time {
+  font-size: 15px;
+  color: #475569;
+  font-weight: 500;
+  padding-right: 20px;
+}
+
+.image {
+  width: 40px;
+  height: 40px;
+}
+
+.content-card {
+  display: flex;
+  padding-left: 10px;
+}
+
+.domain-name {
+  padding-right: 10px;
+  font-weight: 600;
+}
+.domain {
+  color: #64748b;
+}
+
+.button {
+  border: 0px;
+}
